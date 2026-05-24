@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
 @import "tailwindcss";
 
 @theme {
   --color-cornflower: #66a1ff;
+  --font-VT: "VT323", monospace;
 }
 
 :root {
@@ -20,15 +22,21 @@ body {
 
 h1 {
   color: var(--primary);
+  font-family: "VT323", monospace;
+  font-size: 4em;
 }
 
 p {
   color: var(--primary);
+  font-family: "VT323", monospace;
+  font-size: 1.8em;
 }
 
 a {
   color: var(--primary);
   text-decoration: none;
+  font-family: "VT323", monospace;
+  font-size: 1.8em;
 }
 
 a:hover {
