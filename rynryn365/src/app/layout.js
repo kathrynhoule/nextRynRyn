@@ -6,7 +6,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className="flex min-h-screen">
 
-        <aside className="flex w-64 border-r p-4">
+        <aside className="flex w-64 border-r border-cornflower p-4">
           <NavBar />
         </aside>
         
